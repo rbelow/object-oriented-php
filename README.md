@@ -1,6 +1,6 @@
 # ShareBoard: Object Oriented PHP Web App
 
-####How to intall####
+###Installation guide###
 
 1. Create a MySQL database
 
@@ -18,7 +18,9 @@
      `register_date` TIMESTAMP NOT NULL DEFAULT NOW()
      ```
 
-2. Add a config.php file in the root folder with:
+     [ERROR: Error 1067: Invalid default value for ON UPDATE CURRENT_TIMESTAMP](http://stackoverflow.com/questions/23312144/error-error-1067-invalid-default-value-for-on-update-current-timestamp)
+
+3. Add a **config.php** file in the root folder with:
 
 ```php
 <?php
