@@ -1,6 +1,6 @@
 # ShareBoard: Object Oriented PHP Web App
 
-###Installation guide###
+## Installation guide
 
 1. Create a MySQL database
 
